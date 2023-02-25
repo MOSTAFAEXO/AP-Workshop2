@@ -6,5 +6,10 @@ public class main {
 
     std1.setGrade(19);
     std1.printStudentInfo();
+
+
+    Lab lab1 = new Lab("Heidari","Sunday",10);
+    lab1.showInfo();
     }
+
 }
