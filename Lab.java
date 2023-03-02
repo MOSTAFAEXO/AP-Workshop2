@@ -17,9 +17,11 @@ public class Lab {
         students = new Student[maxSize];
     }
 
-    public void setAvgGrade (double avgGrade) {
-        if (avgGrade >= 0)
-            this.avgGrade = avgGrade;
+    public void setavgGrade (double mark1 ,double mark2,double mark3) {
+        double ave=(mark1+mark2+mark3)/3;
+        System.out.println("average is :"+ ave);
+
+
     }
 
         public void setDayOfWeek(String dayOfWeek){

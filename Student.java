@@ -14,14 +14,17 @@ public class Student {
     }
 
     public void printStudentInfo(){
-        System.out.println(firstname + ' ' + lastname + " \tID: "+ id + "\tGEADE: "+ grade);
+        System.out.println(firstname + ' ' + lastname + " \tID: "+ id + "\tGEADE: "+ grade+"\n");
     }
 
-    public void setGrade(int grade){
+    public void setGrade(double grade){
         if (grade<=20 && grade >=0)
             this.grade = grade;
     }
 
+    public double showgrade(){
+        return grade;
+    }
 }
 
 
